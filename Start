@@ -1,3 +1,51 @@
+<style>
+body {
+  background-color: #DED9D8;
+  font-family: 'Poppins', sans-serif;
+}
+
+#header {
+  background-color: #DED9D8;
+  position: fixed;
+  width: 2000px;
+  height: 80px;
+  top: 0px;
+  z-index: 1;
+}
+
+#header-img {
+  width: 400px;
+  position: fixed;
+  left: 20px;
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 120px;
+}
+
+#main {
+  padding-top: 70px;
+  text-align: center;
+}
+
+@media (max-width: 100px) {
+  h1 {
+    fontsize: 10px;
+  }
+}
+
+#pricing {
+  display: flex;
+}
+</style>
+
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
 <body>
